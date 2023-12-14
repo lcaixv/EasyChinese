@@ -1,0 +1,12 @@
+<h1>EasyChinese: Simplifying the Chinese Writing System Using Clustering Algorithms and Ambiguity Metrics</h1>
+<h2>Kai Xu | Advised by Robert Frank</h2>
+
+<h3>Abstract</h3>
+<p>Chinese is especially difficult to learn to read and write due to its logographic writing system, which requires memorizing thousands of characters, rather than a simpler alphabetic or phonetic system found in most major languages. Meanwhile, writing Chinese in purely phonetic notation (e.g., Pinyin, Zhuyin) results in semantic ambiguity due to many characters sharing the same pronunciation but having different meanings (homophones). In light of these challenges, this paper presents a new notation system for Chinese in which every character is represented by a combination of pronunciation and semantic category, ensuring ease of reading while enabling semantic disambiguation. First, we find a significant reduction in semantic ambiguity when writing Pinyin with space-separated words. Ambiguity can be further reduced by using the occasional Kangxi radical to distinguish homophones. Noting that radicals provide suboptimal semantic categories, we approach the creation of new semantic categories as a clustering problem, where each Chinese character is represented as a vector embedding. After testing various clustering algorithms, we find that k-means, Gaussian mixture models, and Ward-linkage hierarchical clustering are particularly well-suited for this task. To improve upon the results of clustering algorithms, this paper proposes three approaches: The first is a formula for outlier detection, ensuring clusters are based on semantically unambiguous characters. The second is a method for consensus clustering, combining the insights of multiple clustering algorithms. The third is a way of incorporating human feedback to align clusters with human perception. Ultimately, we recommend that Chinese be written phonetically with space-separated words, with the occasional inclusion of semantically disambiguating symbols (starting with radicals but transitioning to more semantically meaningful symbols) to differentiate between homophones.</p>
+
+<ul>
+<li><a href="./proposal.pdf">Project Proposal</a></li>
+<li><a href="./report.pdf">Final Report</a></li>
+<li><a href="./poster.pdf">Poster</a></li>
+<li><a href="./">Presentation</a></li>
+</ul>
